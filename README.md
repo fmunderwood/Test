@@ -1,8 +1,8 @@
 # Test
 This repository has been created to help with understanding how version control works.
-This will serve as a model for future repositories.
+This will serve as a model for future repositories. 
 
-## Version 1 - Original
+## Version CXY18
 In this original version we have a set of three R files:
 
 + [Create Data.R](https://github.com/fmunderwood/Test/blob/master/Create%20Data.R)
