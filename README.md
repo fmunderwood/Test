@@ -1,12 +1,13 @@
 # Test
-This repository has been created to help with understanding how version control works.
-This will serve as a model for future repositories. 
+Testing out version control
 
-## Version CXY18
-In this original version we have a set of three R files:
+This repository is a place to demonstrate how version control works.
 
-+ [Create Data.R](https://github.com/fmunderwood/Test/blob/master/Create%20Data.R)
-+ [Modelling.R](https://github.com/fmunderwood/Test/blob/master/Modelling.R)
-+ [Simple Plot.R](https://github.com/fmunderwood/Test/blob/master/Simple%20Plot.R)
+# Version 0 - original
 
-The file [Testing out version control.pdf](https://github.com/fmunderwood/Test/blob/master/Testing%20out%20version%20control.pdf) describes details of how these files link together.
+The original repository contains three R files:
++ [Create_Data.R](https://github.com/fmunderwood/Test/edit/master/Create%20Data.R)
++ [Modelling.R](https://github.com/fmunderwood/Test/edit/master/Modelling.R)
++ [Simple_Plot.R](https://github.com/fmunderwood/Test/edit/master/Simple%20Plot.R)
+
+and a pdf [Testing_out_version_control.pdf](https://github.com/fmunderwood/Test/edit/master/Testing%20out%20version%20control.pdf) that describes how these three R files interact.

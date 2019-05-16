@@ -3,9 +3,19 @@
  
 source('Create Data.R')
  
+par(mfrow = c(1,2))
  plot(y ~ x, data = df)
+ plot(y ~ z, data = df)
+ 
  lm1 <- lm(y ~ x, data = df)
  summary(lm1)
+ lm2 <- lm(y ~ z, data = df)
+ summary(lm2)
+ lm3 <- lm(y ~ x + z, data = df)
+ summary(lm3)
  
- lines(predict(lm1), col = 2)
+ AIC(lm1, lm2, lm3)
+ 
+ # Final model
+ lm.fin <- lm(y ~ z, data = df)
  
